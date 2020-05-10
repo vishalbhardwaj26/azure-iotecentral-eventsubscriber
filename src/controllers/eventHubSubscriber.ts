@@ -5,9 +5,8 @@ import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const connectionString = "Endpoint=sb://test-hub-vishal.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=M5c0BMeAssoodwMm2ieHv6JnoIOr2Nc9JswvJaW2Jo8=";
-// const connectionString = "Endpoint=sb://test-event-hub26.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=iHO+Xaty+LX2jYiSwqaQuc5WWUTCcmBUoHAcF5EAqio=";// process.env["EVENTHUB_CONNECTION_STRING"] || "";;
-const eventHubName = "test-hub-vishal";
+const connectionString = "xxxxxxx";
+const eventHubName = "xxxxxxx";
 const consumerGroup = "$Default";
 
 class AzureEventBusSubscriber {
